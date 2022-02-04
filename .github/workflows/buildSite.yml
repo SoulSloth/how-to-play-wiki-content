@@ -27,7 +27,7 @@ jobs:
         passphrase: ${{ secrets.ssh_pass }}
         port: ${{ secrets.port }}
         script: |
-          cd repo
+          cd how-to-play-wiki-content
           git stash
           git pull --force origin master
           echo "complete"
