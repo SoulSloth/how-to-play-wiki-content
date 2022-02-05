@@ -27,7 +27,15 @@ jobs:
         passphrase: ${{ secrets.ssh_pass }}
         port: ${{ secrets.port }}
         script: |
+          #Pull the wiki contents
           cd how-to-play-wiki-content
           git stash
           git pull --force origin master
-          echo "complete"
+          #Clear resources
+          rm -r ~/how-to-play-wiki-generator/resources/*
+          #Copy new contents to resources
+          cp * ../how-to-play-wiki-generator/resources
+          #Run static site builder
+          cd ~/how-to-play-wiki-generator
+          lein build-site "/var/www/howtoplaywiki"
+
