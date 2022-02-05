@@ -34,7 +34,7 @@ jobs:
           #Clear resources
           rm -r ~/how-to-play-wiki-generator/resources/*
           #Copy new contents to resources
-          cp * ../how-to-play-wiki-generator/resources
+          cp -r * ../how-to-play-wiki-generator/resources
           #Run static site builder
           cd ~/how-to-play-wiki-generator
           lein build-site "/var/www/howtoplaywiki"
