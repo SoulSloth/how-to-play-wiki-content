@@ -1,6 +1,6 @@
 {:title "Hollow"
  :portrait "/assets/hollow.png"
- :category "Enemies"
+ :category :enemies
  :description "Vile fellas out to commit evil deeds and make players seethe"
  :location [{:name "Undead Asylum"
              :link "/hollow"
