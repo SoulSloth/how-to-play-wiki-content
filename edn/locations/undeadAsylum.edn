@@ -1,0 +1,6 @@
+{:title "Undead Asylum"
+ :portrait "/assets/hollow.png"
+ :category :locations
+ :description "A place for crazy dead people."
+ :enemies [{:name "Hollow" :link "/enemies/hollow"}]
+ :weapons [{:name "Broken Straight Sword" :link "/weapons/brokenStraightSword"}]}

@@ -1,3 +1,7 @@
+.siteTitle {
+    margin: 10em;
+}
+
 .page {
     background: var(--bg);
     color: var(--textcolor);

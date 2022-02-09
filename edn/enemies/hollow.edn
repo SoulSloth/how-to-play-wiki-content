@@ -3,7 +3,7 @@
  :category :enemies
  :description "Vile fellas out to commit evil deeds and make players seethe"
  :location [{:name "Undead Asylum"
-             :link "/hollow"
+             :link "/locations/undeadAsylum"
              :health {:new-game 69 :new-game-plus 186}
              :runes {:new-game 20 :new-game-plus 100}
              :defense
@@ -11,7 +11,7 @@
              :resistance
              {:immunity "E" :robustness "E" :focus "E" :death "E"}}
             {:name "Undead burg"
-             :link "/hollow"
+             :link "/locations/undeadBurg"
              :health {:new-game 53 :new-game-plus 137}
              :runes {:new-game 20 :new-game-plus 100}
              :defense
@@ -19,5 +19,5 @@
              :resistance
              {:immunity "E" :robustness "E" :focus "E" :death "E"}}]
  :drops [{:name "Souls" :link "/souls" :chance 2}
-         {:name "Broken Straight Sword" :link "/Broken+Straight+Sword" :chance 2}]}
+         {:name "Broken Straight Sword" :link "/brokenStraightSword" :chance 2}]}
 
