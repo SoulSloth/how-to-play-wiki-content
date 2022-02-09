@@ -19,5 +19,5 @@
              :resistance
              {:immunity "E" :robustness "E" :focus "E" :death "E"}}]
  :drops [{:name "Souls" :link "/souls" :chance 2}
-         {:name "Broken Straight Sword" :link "weapons/brokenStraightSword" :chance 2}]}
+         {:name "Broken Straight Sword" :link "/weapons/brokenStraightSword" :chance 2}]}
 
