@@ -1,6 +1,7 @@
 # How To Play Wiki Content
 
-:warning: :warning: Currently this repo is still under construction. You can follow these efforts on the [static site generator here](https://github.com/SoulSloth/how-to-play-wiki-generator) :warning: :warning: :warning:
+🚧🚧🚧🚧
+Currently this repo is still under construction. You can follow these efforts on the [static site generator here](https://github.com/SoulSloth/how-to-play-wiki-generator) 🚧🚧🚧🚧
 
 howtoplay.wiki
 
