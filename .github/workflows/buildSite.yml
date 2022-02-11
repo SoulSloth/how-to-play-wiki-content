@@ -1,4 +1,4 @@
-name: CI
+name: updateSite
 
 # Controls when the action will run.
 on:
@@ -31,6 +31,6 @@ jobs:
           cd how-to-play-wiki-content
           git stash
           git pull --force origin master
-          cd ..
+          cd ../how-to-play-wiki-generatorA
           rm -r /var/www/howtoplaywiki/*
-          java -jar how-to-play-wiki-0.1.0-SNAPSHOT-standalone.jar "./how-to-play-wiki-content/" "/var/www/howtoplaywiki"
+          lein build-site site-content /var/www/howtoplaywiki
