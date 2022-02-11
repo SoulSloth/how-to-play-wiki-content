@@ -31,6 +31,6 @@ jobs:
           cd how-to-play-wiki-content
           git stash
           git pull --force origin master
-          cd ../how-to-play-wiki-generatorA
+          cd ../how-to-play-wiki-generator
           rm -r /var/www/howtoplaywiki/*
           lein build-site site-content /var/www/howtoplaywiki
