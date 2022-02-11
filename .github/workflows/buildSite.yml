@@ -32,5 +32,5 @@ jobs:
           git stash
           git pull --force origin master
           cd ..
-          rm /var/www/howtoplaywiki/*
+          rm -r /var/www/howtoplaywiki/*
           java -jar how-to-play-wiki-0.1.0-SNAPSHOT-standalone.jar "./how-to-play-wiki-content/" "/var/www/howtoplaywiki"
