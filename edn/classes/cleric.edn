@@ -1,0 +1,15 @@
+{:title "cleric"
+ :category :classes
+ :stats {:level 2
+         :vitality 11
+         :attunement 11
+         :endurance 9
+         :strength 12
+         :dexterity 8
+         :resistance 11
+         :intelligence 8
+         :faith 14
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

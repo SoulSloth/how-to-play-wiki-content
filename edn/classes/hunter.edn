@@ -1,0 +1,15 @@
+{:title "hunter"
+ :category :classes
+ :stats {:level 4
+         :vitality 11
+         :attunement 9
+         :endurance 11
+         :strength 12
+         :dexterity 14
+         :resistance 11
+         :intelligence 9
+         :faith 9
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

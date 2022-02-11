@@ -1,0 +1,15 @@
+{:title "wanderer"
+ :category :classes
+ :stats {:level 3
+         :vitality 10
+         :attunement 11
+         :endurance 10
+         :strength 10
+         :dexterity 14
+         :resistance 12
+         :intelligence 11
+         :faith 8
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

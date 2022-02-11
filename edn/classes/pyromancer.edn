@@ -1,0 +1,15 @@
+{:title "pyromancer"
+ :category :classes
+ :stats {:level 1
+         :vitality 10
+         :attunement 12
+         :endurance 11
+         :strength 12
+         :dexterity 9
+         :resistance 12
+         :intelligence 10
+         :faith 8
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

@@ -1,0 +1,15 @@
+{:title "warrior"
+ :category :classes
+ :stats {:level 4
+         :vitality 11
+         :attunement 8
+         :endurance 12
+         :strength 13
+         :dexterity 13
+         :resistance 11
+         :intelligence 9
+         :faith 9
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

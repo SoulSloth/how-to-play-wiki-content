@@ -1,0 +1,15 @@
+{:title "deprived"
+ :category :classes
+ :stats {:level 6
+         :vitality 11
+         :attunement 11
+         :endurance 11
+         :strength 11
+         :dexterity 11
+         :resistance 11
+         :intelligence 11
+         :faith 11
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

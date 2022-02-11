@@ -1,0 +1,15 @@
+{:title "bandit"
+ :category :classes
+ :stats {:level 4
+         :vitality 12
+         :attunement 8
+         :endurance 14
+         :strength 14
+         :dexterity 9
+         :resistance 11
+         :intelligence 8
+         :faith 10
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

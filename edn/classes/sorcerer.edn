@@ -1,0 +1,15 @@
+{:title "sorcerer"
+ :category :classes
+ :stats {:level 3
+         :vitality 8
+         :attunement 15
+         :endurance 8
+         :strength 9
+         :dexterity 11
+         :resistance 8
+         :intelligence 15
+         :faith 8
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}

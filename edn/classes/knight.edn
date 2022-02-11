@@ -1,0 +1,15 @@
+{:title "knight"
+ :category :classes
+ :stats {:level 5
+         :vitality 14
+         :attunement 10
+         :endurance 10
+         :strength 11
+         :dexterity 11
+         :resistance 10
+         :intelligence 9
+         :faith 11
+         :humanity 0}
+ :gear {}
+ :items {}
+ :spells []}
