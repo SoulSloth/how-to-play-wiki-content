@@ -18,8 +18,22 @@ This is the contents for howtoplay.wiki, a fast, simple, and accurate wiki with 
 # Rules for contributors
 
 0. How To Play Wiki aims to be a fast, simple, and accurate wiki. Any content within pull requests or currently on the site should be rejected or removed.
-1. No plagiarized or copyrighted content.
+1. No plagiarized or copyrighted content is allowed.
 
+## Assets
+
+Image assets should all be in [webp format](https://developers.google.com/speed/webp/). You can convert webp images like [with the `cwebp` tool like so](https://developers.google.com/speed/webp/docs/cwebp):
+
+```bash
+# Convert a single file(PNG in this example) to webp
+cwebp -q $QUALITY $FILE -resize $NEWX $NEWY -crop $X $Y $XOFFSET $YOFFSET -o ./$(basename $FILE .png).webp
+
+#Convert a directory of png files to webp
+for file in ./$DIR/*; do
+    [ -f "$file" ] || continue
+    cwebp -q 60 "$file" -resize $NEWX $NEWY -crop $X $Y $XOFFSET $YOFFSET-o ./$OUTDIR/$(basename "$file" .png).webp
+done
+```
 
 # License
 
