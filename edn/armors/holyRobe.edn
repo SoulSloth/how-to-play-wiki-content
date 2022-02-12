@@ -1,8 +1,8 @@
 {:title "Holy Robe"
  :category :armors
  :image "holyRobe.webp"
- :stats {:defense {:physical 77 :strike 77 :slash 77 :pierce 77 :magic 58 :fire 54 :lightning 58 :holy 0}
-         :resistance {:bleed 20 :posion 20 :curse 20}
+ :stats {:defense {:physical 77 :strike 77 :slash 77 :thrust 77 :magic 58 :fire 54 :lightning 58 }
+         :resistance {:bleed 20 :poison 20 :curse 20}
          :poise 0
          :durability 350
          :weight 4.0
@@ -11,8 +11,8 @@
  :blurb "Robe donned by the men of the cloth. Though plain to the eye, its hardy fabric repels rain and keeps the body warm.\nThose dissatisfied with church teachings must test their faith by going on a spiritual journey. Such is the ritual of self-purification of the Way of the White."
  :locations [{:name "Cleric starting gear"} {:name "The Catacombs" :link "/locations/theCatacombs"}]
  :upgrades [{:level 1
-             :defense {:physical 77 :strike 77 :slash 77 :pierce 77 :magic 58 :fire 54 :lightning 58 :holy 0}
-             :resistance {:bleed 20 :posion 20 :curse 20}}
+             :defense {:physical 77 :strike 77 :slash 77 :pierce 77 :magic 58 :fire 54 :lightning 58} 
+             :resistance {:bleed 20 :poison 20 :curse 20}}
             {:level 2
-             :defense {:physical 77 :strike 77 :slash 77 :pierce 77 :magic 58 :fire 54 :lightning 58 :holy 0}
-             :resistance {:bleed 20 :posion 20 :curse 20}}]}
+             :defense {:physical 77 :strike 77 :slash 77 :pierce 77 :magic 58 :fire 54 :lightning 58}
+             :resistance {:bleed 20 :poison 20 :curse 20}}]}
