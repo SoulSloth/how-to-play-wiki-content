@@ -10,6 +10,7 @@
          :intelligence 11
          :faith 11
          :humanity 0}
+ :md-page true
  :gear {}
  :items {}
  :spells []}

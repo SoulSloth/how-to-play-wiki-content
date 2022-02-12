@@ -12,4 +12,6 @@
          :humanity 0}
  :gear {}
  :items {}
- :spells []}
+ :spells []
+ :md-page "bandit.md"
+ }

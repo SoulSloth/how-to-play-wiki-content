@@ -1,3 +1,19 @@
+.markdown blockquote{
+    border-left: solid maroon;
+    padding: 1em 1.6em 1em 1em;
+    background: black;
+}
+
+
+.markdown blockquote footer{
+    font-style: italic;
+    font-size: small;
+}
+
+.markdown blockquote footer::before{
+    content: "➛"
+}
+
 .siteTitle {
     text-decoration: none;
     color: var(--textcolor);
