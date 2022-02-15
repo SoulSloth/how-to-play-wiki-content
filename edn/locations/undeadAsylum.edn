@@ -1,6 +1,9 @@
 {:title "Undead Asylum"
- :portrait "/assets/hollow.png"
+ :portrait "/assets/locations/undeadAsylum.webp"
  :category :locations
- :description "A place for crazy dead people."
+ :blurb "In this land, the Undead are corralled and led to the north, where they are locked away, to await the end of the world... This is your fate."
+ :notes "undeadAsylum.md"
+ :lore "undeadAsylumLore.md"
+ :POI "undeadAsylumPOI.md"
  :enemies [{:name "Hollow" :link "/enemies/hollow"}]
- :weapons [{:name "Broken Straight Sword" :link "/weapons/brokenStraightSword"}]}
+ :weapons [{:name "Broken Straight Sword" :link "/weapons/brokenStraightSword" :methods ["Dropped By Hollow"]}]}
